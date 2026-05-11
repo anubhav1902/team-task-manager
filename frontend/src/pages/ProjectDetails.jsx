@@ -60,12 +60,11 @@ function ProjectDetails() {
 
     useEffect(() => {
 
-        fetchTasks();
+    fetchTasks();
 
-        fetchUsers();
+    fetchUsers();
 
-    }, []);
-
+}, [fetchTasks, fetchUsers]);
     // ================= HANDLE INPUT =================
     const handleChange = (e) => {
 
