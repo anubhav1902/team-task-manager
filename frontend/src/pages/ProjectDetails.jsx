@@ -64,7 +64,9 @@ function ProjectDetails() {
 
     fetchUsers();
 
-}, [id]);
+    // eslint-disable-next-line
+
+}, []);
     // ================= HANDLE INPUT =================
     const handleChange = (e) => {
 
