@@ -58,13 +58,13 @@ function ProjectDetails() {
 
     };
 
-    useEffect(() => {
+   useEffect(() => {
 
     fetchTasks();
 
     fetchUsers();
 
-}, [fetchTasks, fetchUsers]);
+}, [id]);
     // ================= HANDLE INPUT =================
     const handleChange = (e) => {
 
